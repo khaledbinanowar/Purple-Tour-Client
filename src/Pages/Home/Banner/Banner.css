@@ -1,0 +1,18 @@
+.carousel.slide img{
+    height: 90vh;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, .3);
+    color: #ffffff;
+    bottom: 35%;
+    border-radius: 1rem;
+}
+.carousel-caption h3{
+    font-size: 4rem;
+}
+.carousel-caption span{
+    color: #8352cb;
+}
+.carousel-caption p{
+    font-size: 2rem;
+}

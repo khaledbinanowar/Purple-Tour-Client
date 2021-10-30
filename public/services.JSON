@@ -1,0 +1,83 @@
+[
+    {
+        "key": "1",
+        "img": "https://i.ibb.co/JzvLmp5/pexels-photo-131729-700x466.jpg",
+        "title": "Swiss Alps Trip",
+        "tags": "Shopping, Mountain, Snow & Ice",
+        "price": 3644,
+        "duration": "15 Days",
+        "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party."
+    },
+    {
+        "key": "2",
+        "img": "https://i.ibb.co/RCm91jJ/bf1202aedf2c5b6a57d379575619a488-700x466.jpg",
+        "title": "Seoul Your Soul",
+        "tags": "City Tours, Shopping",
+        "price": 4544,
+        "duration": "12 Days",
+        "description": "Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest in do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar."
+    },
+    {
+        "key": "3",
+        "img": "https://i.ibb.co/pzGRHQp/Tokyo-Dollarphotoclub-72848283-copy-700x466.jpg",
+        "title": "Niko Trip",
+        "tags": "Mountain, Rural, Urban",
+        "price": 9544,
+        "duration": "18 Days",
+        "description": "Foam padding in the insoles leather finest quality staple flat slip-on design pointed toe off-duty shoe. Black knicker lining concealed back zip fasten swing style high waisted double layer full pattern floral eiusmod Pinterest."
+    },
+    {
+        "key": "4",
+        "img": "https://i.ibb.co/y0yhWBP/pexels-photo-211051-700x466.jpg",
+        "title": "French Autumn",
+        "tags": "City Tours, Urban",
+        "price": 6844,
+        "duration": "20 Days",
+        "description": "Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket, comfortable full."
+    },
+    {
+        "key": "5",
+        "img": "https://i.ibb.co/FVbGGzT/39267772-prague-wallpapers-700x466.jpg",
+        "title": "Exclusive Prague Trip",
+        "tags": "City Tours, Historic, Park",
+        "price": 5544,
+        "duration": "26 Days",
+        "description": "See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets. "
+    },
+    {
+        "key": "6",
+        "img": "https://i.ibb.co/L5bJ64R/pexels-photo-24377-700x466.jpg",
+        "title": "The New California",
+        "tags": "City Tours, Iconic, Rural",
+        "price": 7744,
+        "duration": "18 Days",
+        "description": "Foam padding in the insoles leather finest quality staple flat slip-on design pointed toe off-duty shoe. Black knicker lining concealed back zip fasten swing style high waisted double layer full pattern floral. Polished finish."
+    },
+    {
+        "key": "7",
+        "img": "https://i.ibb.co/0ngh9cF/pexels-photo-115070-700x466.jpg",
+        "title": "Hong Kong",
+        "tags": "Iconic, Shopping, City Tours",
+        "price": 8844,
+        "duration": "25 Days",
+        "description": "Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike designtopline."
+    },
+    {
+        "key": "8",
+        "img": "https://i.ibb.co/G7GZwgz/pexels-photo-197657-700x466.jpg",
+        "title": "Grand Switzerland",
+        "tags": "Shopping, Mountain, Snow & Ice",
+        "price": 4744,
+        "duration": "15 Days",
+        "description": "Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest."
+    },
+    {
+        "key": "9",
+        "img": "https://i.ibb.co/bbr1zyV/pexels-photo-225630-700x466.jpg",
+        "title": "5 Lake of Fuji San",
+        "tags": "Mountain, Rural, Urban",
+        "price": 6144,
+        "duration": "28 Days",
+        "description": "Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket. Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean."
+    }
+]
