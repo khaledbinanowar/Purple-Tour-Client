@@ -12,7 +12,7 @@ import {
 function Orders() {
   const [orders, setOrder] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://enigmatic-journey-29953.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => setOrder(data));
   }, []);

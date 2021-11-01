@@ -8,7 +8,7 @@ const Order = () => {
     const { user } = useAuth();
     const onSubmit = data => {
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://enigmatic-journey-29953.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

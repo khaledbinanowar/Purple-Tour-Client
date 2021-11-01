@@ -8,7 +8,7 @@ function MyOrders() {
   const { user } = useAuth();
   const [orders, setOrder] = useState([]);
   const [orderData, setOrderData] = useState([]);
-  const url = `http://localhost:5000/orders/${user.email}`;
+  const url = `https://enigmatic-journey-29953.herokuapp.com/orders/${user.email}`;
 
   useEffect(() => {
     fetch(url)
@@ -19,7 +19,7 @@ function MyOrders() {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?");
     if (proceed) {
-      fetch(`http://localhost:5000/orders/${id}`, {
+      fetch(`https://enigmatic-journey-29953.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -34,7 +34,7 @@ function MyOrders() {
   };
 
   const handleUpdate = (id) => {
-    fetch(`http://localhost:5000/ordersData/${id}`)
+    fetch(`https://enigmatic-journey-29953.herokuapp.com/ordersData/${id}`)
       .then((res) => res.json())
       .then((data) => setOrderData(data));
     const updatedtour = {
@@ -48,7 +48,7 @@ function MyOrders() {
     };
 
     setOrderData(updatedtour);
-    fetch(`http://localhost:5000/ordersData/${id}`, {
+    fetch(`https://enigmatic-journey-29953.herokuapp.com/ordersData/${id}`, {
       method: "PUT",
 
       headers: {
