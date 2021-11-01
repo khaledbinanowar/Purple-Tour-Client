@@ -1,6 +1,7 @@
 import './LogIn.css'
 import useAuth from '../../../hooks/useAuth';
 import { Link, useLocation, useHistory } from 'react-router-dom';
+import google from '../../../images/google.jpeg';
 
 const LogIn = () => {
     const { signInUsingGoogle } = useAuth();
@@ -17,7 +18,12 @@ const LogIn = () => {
 
     return (
         <div>
-            <button onClick={handleGoogleLogin} className="btn btn-secondary">Google Sign In</button>
+            <img
+                className="google-login"
+                src={google}
+                alt="google"
+            />
+            <button onClick={handleGoogleLogin} className="btn google-btn">Google Sign In</button>
         </div>
     );
 };

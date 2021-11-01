@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({ service }) => {
-    const { key, img, title, tags, description, duration, price } = service;
+    const { _id, img, title, tags, description, duration, price } = service;
     return (
         <Col>
             <Card className="service">
@@ -21,8 +21,8 @@ const Service = ({ service }) => {
                         </Col>
                     </Row>
                     <Card.Text>{description}</Card.Text>
-                    <Link to={`/Single/${key}`}>
-                        <button className="btn">Show More</button>
+                    <Link to={`/service/${_id}`}>
+                        <button className="btn">Book Now</button>
                     </Link>
                 </Card.Body>
             </Card>

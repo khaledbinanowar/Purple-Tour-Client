@@ -7,10 +7,14 @@ import PrivateRoute from './Pages/Authentication/PrivateRoute/PrivateRoute';
 import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home';
 import Services from './Pages/Shared/Services/Services';
-import Single from './Pages/Shared/Single/Single';
+import Order from './Pages/Order/Order';
+import Orders from './Pages/Orders/Orders';
+import Booking from "./Pages/Booking/Booking";
+import MyOrders from "./Pages/MyOrders/MyOrders";
 import Addservice from './Pages/Addservice/Addservice';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
+import { ChakraProvider } from "@chakra-ui/react";
 
 
 function App() {
@@ -20,24 +24,35 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route exact path="/">
-              <Home></Home>
-            </Route>
-            <Route path="/home">
-              <Home></Home>
-            </Route>
             <Route path="/login">
               <LogIn></LogIn>
+            </Route>
+            <Route path="/Services">
+              <Services></Services>
             </Route>
             <PrivateRoute path="/addservice">
               <Addservice></Addservice>
             </PrivateRoute>
-            <PrivateRoute path="/Single/:serviceKey">
-              <Single></Single>
-            </PrivateRoute>
-            <Route path="/Services">
-              <Services></Services>
-            </Route>
+            <ChakraProvider>
+              <Route exact path="/">
+                <Home></Home>
+              </Route>
+              <Route path="/home">
+                <Home></Home>
+              </Route>
+              <PrivateRoute path="/service/:serviceId">
+                <Booking></Booking>
+              </PrivateRoute>
+              <PrivateRoute path="/myOrders">
+                <MyOrders></MyOrders>
+              </PrivateRoute>
+              <PrivateRoute path="/order">
+                <Order></Order>
+              </PrivateRoute>
+              <PrivateRoute path="/orders">
+                <Orders></Orders>
+              </PrivateRoute>
+            </ChakraProvider>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
